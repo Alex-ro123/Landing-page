@@ -7,12 +7,10 @@ body {
 header,
 footer {
   background-color: #1f2937;
-  margin: 0;
-  padding: 0;
 }
 
 a,
-.secondary-text {
+p.secondary-text {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -22,6 +20,7 @@ ul {
   padding: 0;
   margin: 0;
   gap: 16px;
+  color: #e5e7eb;
 }
 
 a {
@@ -58,14 +57,18 @@ header {
   padding: 0;
   margin: 0;
 }
+
 button {
   width: 85px;
   height: 25px;
-  border-radius: 8px;
-  background-color: #3882f6;
-  border: none;
   color: #f9faf8;
   font-weight: 700;
+  border-radius: 8px;
+}
+
+.sing-up {
+  background-color: #3882f6;
+  border: none;
 }
 
 .header-details {
@@ -78,6 +81,91 @@ button {
   margin-top: 3px;
   margin-bottom: 5px;
 }
+.header-details img {
+  min-width: 300px;
+  min-height: 207px;
+  border: 0;
+}
 img {
-  border-radius: 5%;
+  border-radius: 10px;
+}
+
+/*Main first section*/
+
+main {
+  text-align: center;
+}
+
+.first-section {
+  height: 250px;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  font-size: 12px;
+  gap: 28px;
+  color: rgb(50, 49, 49);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: solid 4px rgb(66, 136, 235);
+}
+.image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* Main second section*/
+
+.second-section {
+  padding: 50px 50px;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-style: italic;
+}
+.author {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  font-size: 25px;
+}
+
+/* MAin third section*/
+
+.third-section {
+  background-color: #3882f6;
+  margin: 50px 100px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sing-up2 {
+  border-color: #f9faf8;
+  background: #3882f6;
+}
+
+.action {
+  text-align: left;
+  padding: 20px;
 }
